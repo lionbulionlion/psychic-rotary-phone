@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.FirstTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-22T09:47:01" hostname="MacBook-Pro-vlad.local" time="1.842">
+  <properties/>
+  <testcase name="test()" classname="api.FirstTest" time="1.842"/>
+  <system-out><![CDATA[HTTP/1.1 200 
+Server: QRATOR
+Date: Sat, 22 Jun 2024 09:47:03 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=15
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: false
+Access-Control-Expose-Headers: X-Plan
+X-Plan: FREE
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Encoding: gzip
+
+{
+    "suggestions": [
+        {
+            "value": "Таджикистан",
+            "unrestricted_value": "Республика Таджикистан",
+            "data": {
+                "code": "762",
+                "alfa2": "TJ",
+                "alfa3": "TJK",
+                "name_short": "Таджикистан",
+                "name": "Республика Таджикистан"
+            }
+        },
+        {
+            "value": "Таиланд",
+            "unrestricted_value": "Королевство Таиланд",
+            "data": {
+                "code": "764",
+                "alfa2": "TH",
+                "alfa3": "THA",
+                "name_short": "Таиланд",
+                "name": "Королевство Таиланд"
+            }
+        },
+        {
+            "value": "Тайвань (Китай)",
+            "unrestricted_value": null,
+            "data": {
+                "code": "158",
+                "alfa2": "TW",
+                "alfa3": "TWN",
+                "name_short": "Тайвань (Китай)",
+                "name": null
+            }
+        },
+        {
+            "value": "Танзания, Объединенная Республика",
+            "unrestricted_value": "Объединенная Республика Танзания",
+            "data": {
+                "code": "834",
+                "alfa2": "TZ",
+                "alfa3": "TZA",
+                "name_short": "Танзания, Объединенная Республика",
+                "name": "Объединенная Республика Танзания"
+            }
+        }
+    ]
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
